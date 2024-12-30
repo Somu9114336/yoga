@@ -1,0 +1,29 @@
+.instructors {
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fir-Instructors,
+.sec-Instructors,
+.thr-Instructors {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px; 
+    padding: 20px; 
+    font-size: 20px;
+
+}
+
+.inst-img{
+    max-width: 280px;
+}
+

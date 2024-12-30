@@ -1,0 +1,80 @@
+  .link-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      list-style: none;
+      padding: 0;
+  }
+
+  .link-item li {
+      margin-bottom: 15px;
+  }
+
+  .link-item a {
+      display: inline-flex;
+      align-items: center;
+      color: black;
+      text-decoration: none;
+  }
+
+  .link-item .text {
+      position: relative;
+      top: -5px;
+  }
+
+  .link-item li svg {
+      font-size: 40px;
+  }
+
+  .name,
+  .mail {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .mail {
+      margin-top: 8px;
+  }
+
+  .conct {
+      height: 60px;
+      width: 290px;
+  }
+
+  .contact-info {
+      border: 2px solid #ccc;
+      padding: 30px;
+      height: 500px;
+      border-radius: 8px;
+      background-color: #c0b9b9;
+  }
+
+  .text-a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8px;
+  }
+
+  .btn-sub {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8px;
+  }
+
+  .btn {
+      height: 51px;
+      width: 100px;
+      background-color: #677d80;
+      border-radius: 9px;
+      cursor: pointer;
+  }
+
+  .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  

@@ -1,0 +1,14 @@
+.footer-container{
+    margin-top: 100px;
+    background-color: #333333;
+    height: auto;
+    color: #D3D3D3;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

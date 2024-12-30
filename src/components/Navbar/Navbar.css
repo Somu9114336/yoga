@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: auto;
+    background-color: #333333;
+    list-style: none;
+    gap: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #D3D3D3;
+
+}
